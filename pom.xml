@@ -84,7 +84,7 @@
         <configuration>
           <systemPropertyVariables>
             <java.util.logging.manager>org.jboss.logmanager.LogManager</java.util.logging.manager>
-            <maven.home>${maven.home}</maven.home>
+<!--            <maven.home>${maven.home}</maven.home>-->
           </systemPropertyVariables>
         </configuration>
       </plugin>
@@ -98,7 +98,7 @@
           <name>native</name>
         </property>
       </activation>
-      <build>
+      <!--<build>
         <plugins>
           <plugin>
             <artifactId>maven-failsafe-plugin</artifactId>
@@ -120,7 +120,7 @@
             </executions>
           </plugin>
         </plugins>
-      </build>
+      </build>-->
       <properties>
         <quarkus.package.type>native</quarkus.package.type>
       </properties>
