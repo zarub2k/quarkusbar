@@ -12,6 +12,6 @@ public class DatabaseReadiness implements HealthCheck {
     @Override
     public HealthCheckResponse call() {
         return HealthCheckResponse
-            .up("Database Readiness");
+            .down("Database Readiness");
     }
 }
